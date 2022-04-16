@@ -155,8 +155,9 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
-    text-align: center;
+    background-image: url('../img/header.jpg'), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+	text-align: center;
     color: white;
     .header-content {
         position: relative;
